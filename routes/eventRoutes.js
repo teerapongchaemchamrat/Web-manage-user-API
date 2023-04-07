@@ -3,6 +3,7 @@
 const express = require('express');
 const eventController_In = require('../controllers/eventController_In');
 const eventController_Out = require('../controllers/eventController_Out');
+const eventController_Box_on_Vendor = require('../controllers/eventController_Box_on_Vendor');
 const router = express.Router();
 
 const {getAllProductIn} = eventController_In;
@@ -15,6 +16,8 @@ const {addProductOut} = eventController_Out;
 const {getProductbyIdOut} = eventController_Out;
 const {updateProductOut} = eventController_Out;
 
+const {getAllBoxOnVendor} = eventController_Box_on_Vendor;
+
 
 router.get('/CtrlBox_In', getAllProductIn);
 router.post('/addBox_In', addProductIn);
@@ -26,7 +29,7 @@ router.post('/addBox_Out', addProductOut);
 router.get('/CtrlBox_Out/:id', getProductbyIdOut);
 router.put('/CtrlBox_Out/update/:id', updateProductOut);
 
-
+router.get('/Box_on_Vendor/get',getAllBoxOnVendor);
 
 
 module.exports = {
