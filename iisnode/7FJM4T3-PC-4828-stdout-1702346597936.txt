@@ -1,0 +1,11 @@
+app listening on url http://localhost:\\.\pipe\90de84c3-0d2e-4426-868c-f65c14d8968f
+{
+  fieldname: 'image',
+  originalname: '368060.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: 'D:/WebLayout-react/public/image',
+  filename: '368060.jpg',
+  path: 'D:\\WebLayout-react\\public\\image\\368060.jpg',
+  size: 259456
+}

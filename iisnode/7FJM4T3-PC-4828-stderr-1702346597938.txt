@@ -1,0 +1,35 @@
+(node:4828) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+MulterError: Unexpected field
+    at wrappedFileFilter (D:\Application_API\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Application_API\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (D:\Application_API\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Application_API\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Application_API\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Application_API\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (D:\Application_API\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Application_API\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (D:\Application_API\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (D:\Application_API\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:513:28)
+    at HeaderParser.cb (D:\Application_API\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (D:\Application_API\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (D:\Application_API\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (D:\Application_API\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (D:\Application_API\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (D:\Application_API\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+Error: Global connection already exists. Call sql.close() first.
+    at Object.connect (D:\Application_API\node_modules\mssql\lib\base.js:1638:31)
+    at D:\Application_API\routes\eventWebLayout.js:81:26
+    at Layer.handle [as handle_request] (D:\Application_API\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Application_API\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\Application_API\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\Application_API\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\Application_API\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\Application_API\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:525:35)
+    at finish (node:internal/streams/writable:748:10)
